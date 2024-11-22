@@ -1,0 +1,15 @@
+
+
+.wk-message-callsystem {
+    display: flex;
+}
+
+.wk-callsystem-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.9;
+}
+
+.wk-callsystem-icon {
+    opacity: 0.5;
+}

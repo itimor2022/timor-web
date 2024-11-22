@@ -1,0 +1,144 @@
+
+.wk-p2pcall {
+    width: 100%;
+    height: 665px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0,0.90);
+    position: relative;
+
+}
+
+.wk-p2pcall-localvideo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    border-radius: 8px;
+    transition: all 250ms ease-in-out;
+    object-fit: cover;
+}
+
+.wk-p2pcall-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    pointer-events:none;
+}
+
+.wk-p2pcall-modal .semi-modal-content{
+    padding: 0px !important;
+}
+
+.wk-p2pcall-modal .semi-modal-body-wrapper {
+    margin: 0px;
+}
+
+.wk-p2pcall-userbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}
+
+.wk-userbox-name, .wk-userbox-tip{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+.wk-userbox-tip {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.wk-p2pcall-footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    transition:all 250ms ease-in-out;
+    transform: translateY(0px);
+}
+
+.wk-p2pcall-remotevideo {
+    background-color: rgb(0, 0, 0,0.90);
+    transition: all 250ms ease-in-out;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    width: 120px;
+    height: 160px;
+    cursor: pointer;
+    object-fit: cover;
+
+}
+
+.wk-p2pcall .wk-p2pcall-footer {
+    z-index: 999;
+}
+
+.wk-p2p-answering,.wk-p2p-talking .wk-p2pcall-userbox{
+    opacity: 0;
+}
+
+.wk-p2p-answering,.wk-p2p-talking .wk-p2pcall-remotevideo{
+    opacity: 1;
+}
+
+.wk-p2p-calltype-audio .wk-p2pcall-userbox {
+    opacity: 1;
+}
+
+.wk-p2pcall-localvideo:hover .wk-p2pcall-footer,
+.wk-p2pcall-remotevideo:hover .wk-p2pcall-footer,
+.wk-p2p-answering:hover .wk-p2pcall-footer,
+.wk-p2p-talking:hover .wk-p2pcall-footer {
+  transform: translateY(0px);
+}
+
+.wk-p2p-calltype-audio video {
+    visibility: hidden;
+}
+
+
+
+.wk-p2p-calling .wk-p2pcall-content {
+    z-index: 1000;
+}
+
+.wk-p2p-talking .wk-p2pcall-footer {
+    transform: translateY(150px);
+}
+
+.wk-p2p-calltype-audio .wk-p2pcall-footer {
+    transform: translateY(0px);
+}
+
+.wk-p2p-changesmall {
+    top: 20px;
+    right: 20px;
+    z-index: 998;
+}
+
+
+.wk-p2p-changebig {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+}

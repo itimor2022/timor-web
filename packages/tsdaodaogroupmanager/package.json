@@ -1,0 +1,16 @@
+{
+  "name": "@tsdaodao/groupmanager",
+  "version": "1.0.0",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@tsdaodao/base": "*",
+    "axios": "^0.25.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}

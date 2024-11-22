@@ -1,0 +1,45 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "tasks": {
+    "dev": {
+      "cache": false
+    },
+    "dev-ele": {
+      "dependsOn": ["^dev"],
+      "cache": false
+    },
+    "build": {
+      "outputs": [".next/**"]
+    },
+    "build-ele": {
+      "outputs": [".next/**"],
+      "dependsOn": ["^build"]
+    },
+    "build-ele:mac": {
+      "cache": false,
+      "outputs": [".next/**"],
+      "dependsOn": ["^build"]
+    },
+    "build-ele:win": {
+      "cache": false,
+      "outputs": [".next/**"],
+      "dependsOn": ["^build"]
+    },
+    "build-ele:linux": {
+      "cache": false,
+      "outputs": [".next/**"],
+      "dependsOn": ["^build"]
+    },
+    "build-ele:linux-arm64": {
+      "cache": false,
+      "outputs": [".next/**"],
+      "dependsOn": ["^build"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "clean": {
+      "dependsOn": ["^clean"]
+    }
+  }
+}

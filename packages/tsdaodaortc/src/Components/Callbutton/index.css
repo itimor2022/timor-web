@@ -1,0 +1,35 @@
+.wk-call-btn {
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wk-call-btn button {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wk-call-btn img {
+    width: 32px;
+    height: 32px;
+}
+
+.wk-call-btn .hangup {
+    background-color: rgb(230, 90, 70);
+}
+
+.wk-call-btn .label {
+    color: white;
+    margin-top: 10px;
+}
+
+.wk-call-btn .answer {
+    background-color: green;
+}
