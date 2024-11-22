@@ -126,9 +126,9 @@ export default class MessageInput extends Component<MessageInputProps, MessageIn
 
     send() {
         const { value } = this.state;
-        if (value && value.length > 1000) {
+        if (value && value.length > 10000) {
             Notification.error({
-                content: "输入内容长度不能大于1000字符！",
+                content: "输入内容长度不能大于10000字符！",
             })
             return
         }
