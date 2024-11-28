@@ -12,7 +12,7 @@ import {FileModule} from '@tsdaodao/file';
 import {GroupManagerModule} from '@tsdaodao/groupmanager';
 import {RTCModule} from '@tsdaodao/rtc';
 
-const apiURL = "https://154.202.156.171:701"
+const apiURL = "http://td-api.daluje.cyou"
 
 if((window as any).__TAURI_IPC__) { // tauri环境
   console.log("tauri环境")
