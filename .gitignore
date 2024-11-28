@@ -31,7 +31,6 @@ yarn-error.log*
 # turbo
 .turbo
 
-lib/
 out/
 build
 out-election/
