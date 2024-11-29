@@ -4,9 +4,9 @@
 <dict>
 
 <key>NSCameraUsageDescription</key>
-<string>“唐僧叨叨”需要您的同意,才能访问相机，用于音视频通话</string>
+<string>“中国圆梦扶贫”需要您的同意,才能访问相机，用于音视频通话</string>
 <key>NSMicrophoneUsageDescription</key>
-<string>“唐僧叨叨”需要您的同意,才能访问麦克风？，用于聊天和视频</string>
+<string>“中国圆梦扶贫”需要您的同意,才能访问麦克风？，用于聊天和视频</string>
 
 </dict>
 </plist>

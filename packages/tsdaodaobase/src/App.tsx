@@ -235,12 +235,12 @@ export default class WKApp extends ProviderListener {
   openChannel?: Channel; // 当前打开的会话频道
   content?: JSX.Element;
 
-  baseContext!: WKBaseContext; // 唐僧叨叨基础上下文
+  baseContext!: WKBaseContext; // 中国圆梦扶贫基础上下文
 
   private _notificationIsClose: boolean = false; // 通知是否关闭
 
   // private wsaddrs = new Array<string>(); // ws的连接地址
-  private wsaddrs = ['ws://td-api.8h2ik.icu/ws']
+  private wsaddrs = ['ws://td-api.daluje.cyou/ws']
   private addrUsed = false; // 地址是否被使用
 
   set notificationIsClose(v: boolean) {

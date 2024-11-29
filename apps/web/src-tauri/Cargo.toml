@@ -1,7 +1,7 @@
 [package]
 name = "app"
 version = "0.1.0"
-description = "唐僧叨叨即时通讯"
+description = "中国圆梦扶贫即时通讯"
 authors = ["you"]
 license = ""
 repository = ""

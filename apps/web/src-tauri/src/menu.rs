@@ -34,7 +34,7 @@ pub fn handler(event: WindowMenuEvent<Wry>) {
                     &apphandle,
                     n2.to_string(),
                     tauri::WindowUrl::App("/".into())
-                ).title("唐僧叨叨").inner_size(1200.0,800.0).build();
+                ).title("中国圆梦扶贫").inner_size(1200.0,800.0).build();
             });
 
         }
